@@ -19,7 +19,7 @@ function Navbar() {
             <br />
             <span
               style={{
-                fontSize: "0.7em",
+                fontSize: "0.8em",
                 letterSpacing: "4px",
                 color: "var(--gold)",
               }}
