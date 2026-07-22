@@ -20,7 +20,7 @@ function Footer() {
 
               <div
                 style={{
-                  fontFamily: "Lato, sans-serif",
+                  fontFamily: "Bebas Neue",
                   fontSize: "1.5rem",
                   letterSpacing: "2px",
                   color: "var(--white)",

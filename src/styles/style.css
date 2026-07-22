@@ -50,7 +50,7 @@
     font-size: 22px;
   }
   .nav-logo-text {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 1.5rem;
     letter-spacing: 2px;
     color: var(--white);
@@ -62,7 +62,7 @@
     display: flex; gap: 36px; list-style: none;
   }
   .nav-links a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 600; font-size: 0.9rem;
     letter-spacing: 1.5px; text-transform: uppercase;
     color: var(--white-dim);
@@ -135,7 +135,7 @@
   }
 
   .hero-eyebrow {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 600; font-size: 0.85rem;
     letter-spacing: 4px; text-transform: uppercase;
     color: var(--gold);
@@ -152,7 +152,7 @@
   .hero-title .gold { color: var(--gold); }
 
   .hero-subtitle {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: clamp(1rem, 2.5vw, 1.4rem);
     color: var(--white-muted);
     margin-top: 18px;
@@ -179,7 +179,7 @@
   .btn-primary {
     background: linear-gradient(135deg, var(--gold), var(--gold-dark));
     color: var(--black);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 700; font-size: 0.9rem;
     letter-spacing: 2px; text-transform: uppercase;
     padding: 14px 36px;
@@ -197,7 +197,7 @@
   .btn-outline {
     background: transparent;
     color: var(--gold);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 700; font-size: 0.9rem;
     letter-spacing: 2px; text-transform: uppercase;
     padding: 14px 36px;
@@ -213,7 +213,7 @@
   section { padding: 100px 5vw; }
 
   .section-tag {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 0.78rem; font-weight: 700;
     letter-spacing: 4px; text-transform: uppercase;
     color: var(--gold);
@@ -222,7 +222,7 @@
   }
 
   .section-title {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: clamp(2.5rem, 6vw, 4.5rem);
     letter-spacing: 3px;
     line-height: 1;
@@ -252,14 +252,14 @@
   }
   .stat-item:last-child { border-right: none; }
   .stat-num {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 3.2rem;
     color: var(--black);
     letter-spacing: 2px;
     line-height: 1;
   }
   .stat-label {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 600; font-size: 0.8rem;
     letter-spacing: 2px; text-transform: uppercase;
     color: rgba(0,0,0,0.6);
@@ -267,7 +267,10 @@
   }
 
   /* ── SERVICES ── */
-  #servicios { background: var(--black-soft); }
+  #servicios {
+    background: var(--black-soft);
+    scroll-margin-top: 72px;
+  }
 
   .services-grid {
     display: grid;
@@ -300,7 +303,7 @@
   }
 
   .service-name {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 700; font-size: 1.1rem;
     letter-spacing: 1px; text-transform: uppercase;
     color: var(--white);
@@ -337,7 +340,7 @@
   }
   .product-icon { font-size: 2.8rem; margin-bottom: 14px; display: block; }
   .product-name {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 700; font-size: 1rem;
     letter-spacing: 1.5px; text-transform: uppercase;
     color: var(--white);
@@ -388,13 +391,13 @@
   }
 
   .owner-name {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 2rem; letter-spacing: 3px;
     color: var(--gold);
     margin-bottom: 6px;
   }
   .owner-role {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 0.85rem; font-weight: 600;
     letter-spacing: 2px; text-transform: uppercase;
     color: var(--white-muted);
@@ -444,7 +447,7 @@
     border-radius: 2px;
   }
   .contact-label {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 0.75rem; font-weight: 700;
     letter-spacing: 2px; text-transform: uppercase;
     color: var(--gold);
@@ -462,14 +465,14 @@
     border: 1px solid rgba(201,168,76,0.1);
   }
   .contact-form h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 1.8rem; letter-spacing: 2px;
     color: var(--white); margin-bottom: 24px;
   }
   .form-row { margin-bottom: 18px; }
   .form-row label {
     display: block;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 0.78rem; font-weight: 700;
     letter-spacing: 2px; text-transform: uppercase;
     color: var(--gold);
@@ -495,7 +498,7 @@
     width: 100%;
     background: linear-gradient(135deg, var(--gold), var(--gold-dark));
     color: var(--black);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 700; font-size: 0.9rem;
     letter-spacing: 2px; text-transform: uppercase;
     padding: 15px;
@@ -508,7 +511,7 @@
 
   .form-status {
     margin-top: 14px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 0.88rem;
     letter-spacing: 1px;
     text-align: center;
@@ -538,7 +541,7 @@
   }
 
   .footer-links h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 0.78rem; font-weight: 700;
     letter-spacing: 3px; text-transform: uppercase;
     color: var(--gold); margin-bottom: 16px;

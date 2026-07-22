@@ -1,6 +1,6 @@
 import "./styles/style.css";
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -17,8 +17,16 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="/servicios" element={<Servicios />} />
+        <Route
+          path="/"
+          element={
+            <>
+              <Inicio />
+              <Servicios />
+            </>
+          }
+        />
+        <Route path="/servicios" element={<Navigate to="/#servicios" replace />} />
         <Route path="/productos" element={<Productos />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/contacto" element={<Contacto />} />

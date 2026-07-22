@@ -19,7 +19,7 @@ function Navbar() {
             <br />
             <span
               style={{
-                fontSize: "0.8em",
+                fontSize: "0.7em",
                 letterSpacing: "4px",
                 color: "var(--gold)",
               }}
@@ -42,7 +42,7 @@ function Navbar() {
         <ul className="nav-links">
 
           <li>
-            <Link to="/servicios">Servicios</Link>
+            <a href="/#servicios">Servicios</a>
           </li>
 
           <li>
